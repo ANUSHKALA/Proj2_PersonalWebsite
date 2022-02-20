@@ -1,73 +1,76 @@
 body {
   margin: 0px;
   text-align: center;
+  color: rgb(226, 226, 205);
 }
 h1 {
-  color: rgb(110, 74, 20);
+  color: rgb(212, 165, 221);
   font-family: 'Shizuru', cursive;
   margin: 0px;  
-  top: 30px;
+
 }
 h2 {
-  font-family: 'Redressed', cursive;
+  font-family: 'Patrick Hand', cursive;
 }
 h3 {
-  font-family: 'Redressed', cursive;
+  font-family: 'Patrick Hand', cursive;
 }
 div.top_container {
-  background-color: rgb(149, 187, 212);
+  background-color: rgb(69, 44, 128);
   padding: 20px;
   text-align: auto;
-  padding-top: 100px;
-
+  padding-bottom: 100px;
+  position: relative;
 }
 div.middle_container {
   padding-top: 30px;
-  background-color: rgb(149, 187, 212);
+  background-color: rgb(69, 44, 128);
 }
 div.bottom_container {
   padding-top: 30px;
-  background-color: rgb(149, 187, 212);
+  background-color: rgb(69, 44, 128);
 } 
 
-div.top {
-background-color: rgb(149, 187, 212);
-height: 200px;
-width: 200px;
-position: absolute;
-}
-div.middle {
-background-color: rgb(210, 149, 212);
-height: 200px;
-width: 200px;
-position: absolute;
-left: 400px;
-bottom: 341px;
-}
-div.bottom {
-background-color: rgb(62, 80, 29);
-height: 200px;
-width: 200px;
-position: absolute;
-left: 200px;
-bottom: 541px;
-} 
+
 .top-cloud {
-  position: relative;
-  left: 200px;
-}
-.bottom-cloud {
+  height: 100px;
   position: absolute;
-  left: 100px;
-  top: 200px;
-}
-.heading {
-  position: relative;
+  right: 150px;
   top: 50px;
 }
+.bottom-cloud {
+  height: 100px;
+  position: absolute;
+  left: 100px;
+  top: 700px;
+}
+.dance {
+  height: 50px;
+}
+
+.chem {
+  height: 50px;
+}
+
+
 p {
-  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Marmelad', sans-serif;
 }
 #me {
    height: 50px;
+}
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
 }
