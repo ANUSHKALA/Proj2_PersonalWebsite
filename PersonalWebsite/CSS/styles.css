@@ -1,0 +1,73 @@
+body {
+  margin: 0px;
+  text-align: center;
+}
+h1 {
+  color: rgb(110, 74, 20);
+  font-family: 'Shizuru', cursive;
+  margin: 0px;  
+  top: 30px;
+}
+h2 {
+  font-family: 'Redressed', cursive;
+}
+h3 {
+  font-family: 'Redressed', cursive;
+}
+div.top_container {
+  background-color: rgb(149, 187, 212);
+  padding: 20px;
+  text-align: auto;
+  padding-top: 100px;
+
+}
+div.middle_container {
+  padding-top: 30px;
+  background-color: rgb(149, 187, 212);
+}
+div.bottom_container {
+  padding-top: 30px;
+  background-color: rgb(149, 187, 212);
+} 
+
+div.top {
+background-color: rgb(149, 187, 212);
+height: 200px;
+width: 200px;
+position: absolute;
+}
+div.middle {
+background-color: rgb(210, 149, 212);
+height: 200px;
+width: 200px;
+position: absolute;
+left: 400px;
+bottom: 341px;
+}
+div.bottom {
+background-color: rgb(62, 80, 29);
+height: 200px;
+width: 200px;
+position: absolute;
+left: 200px;
+bottom: 541px;
+} 
+.top-cloud {
+  position: relative;
+  left: 200px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 100px;
+  top: 200px;
+}
+.heading {
+  position: relative;
+  top: 50px;
+}
+p {
+  font-family: 'Shadows Into Light', cursive;
+}
+#me {
+   height: 50px;
+}
