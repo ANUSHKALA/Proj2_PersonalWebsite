@@ -1,7 +1,7 @@
 body {
   margin: 0px;
   text-align: center;
-  color: rgb(113, 190, 226);
+  color: rgb(18, 11, 109);
 }
 h1 {
   color: #66BFBF;
@@ -13,6 +13,7 @@ h1 {
 h2 {
   font-family: 'Patrick Hand', cursive;
   font-weight: normal;
+  font-size: 40px;
 
 }
 h3 {
@@ -29,11 +30,13 @@ div.top_container {
 }
 div.middle_container {
   padding-top: 30px;
-  background-color: rgb(69, 44, 128);
+  padding-bottom: 100px;
 }
 div.bottom_container {
   padding-top: 30px;
   background-color: rgb(69, 44, 128);
+  padding-bottom: 30px;
+
 } 
 
 .about {
@@ -54,15 +57,16 @@ div.bottom_container {
 }
 .dance {
   height: 80px;
-  margin-right: 30px;
+  margin-right: 20px;
   float: left;
+
 }
 
 .chem {
   height: 80px;
   float: right;
-  position: relative;
-  right: 50px;
+  position: absolute;
+  left: 300px;
 
 }
 .universe {
@@ -70,12 +74,16 @@ div.bottom_container {
   height: 300px;
 }
 .skill-row {
-  width: 50%;
+  width: 500px;
   position: relative;
-  margin: 100px auto 100px auto;
+  margin: 50px auto 50px auto;
   line-height: 2;
   text-align: left;
 
+}
+
+.profile {
+  padding-bottom: 50px;
 }
 
 
@@ -100,4 +108,22 @@ a:hover {
   color: red;
   background-color: transparent;
   text-decoration: underline;
+}
+.btn {
+  background-color: rgb(177, 206, 177); /*for compatibility with older browsers*/
+	background-image: linear-gradient(rgb(97, 34, 179),rgb(87, 129, 87));
+  border-radius: 4px;
+}
+.footer-link {
+  padding: 10px;
+}
+.last {
+  color:aqua;
+}
+hr {
+  border-style: none;
+  width: 5%;
+  border-top-style: dotted;
+  border-width: 5px;
+  border-color: rgb(161, 162, 228);
 }
