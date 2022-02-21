@@ -1,19 +1,23 @@
 body {
   margin: 0px;
   text-align: center;
-  color: rgb(226, 226, 205);
+  color: rgb(113, 190, 226);
 }
 h1 {
-  color: rgb(212, 165, 221);
+  color: #66BFBF;
   font-family: 'Shizuru', cursive;
   font-size: 450.4%;  
+  line-height: 2;
 
 }
 h2 {
   font-family: 'Patrick Hand', cursive;
+  font-weight: normal;
+
 }
 h3 {
   font-family: 'Patrick Hand', cursive;
+  color: #11999E;
 }
 div.top_container {
   background-color: rgb(69, 44, 128);
@@ -34,6 +38,7 @@ div.bottom_container {
 
 .about {
   font-size: 2.5rem;
+  color: #66BFBF;
 }
 .top-cloud {
   height: 100px;
@@ -58,6 +63,12 @@ div.bottom_container {
   padding: 40px;
   height: 300px;
 }
+.skill-row {
+  width: 50%;
+  position: relative;
+  margin: auto;
+  
+}
 
 
 p {
@@ -67,7 +78,7 @@ p {
    height: 100px;
 }
 a:link {
-  color: green;
+  color: #11999E;
   background-color: transparent;
   text-decoration: none;
 }
