@@ -4,21 +4,19 @@ body {
   color: rgb(18, 11, 109);
 }
 h1 {
-  color: #66BFBF;
-  font-family: 'Shizuru', cursive;
-  font-size: 450.4%;  
+  color: #66bfbf;
+  font-family: "Shizuru", cursive;
+  font-size: 450.4%;
   line-height: 2;
-
 }
 h2 {
-  font-family: 'Patrick Hand', cursive;
+  font-family: "Patrick Hand", cursive;
   font-weight: normal;
   font-size: 40px;
-
 }
 h3 {
-  font-family: 'Patrick Hand', cursive;
-  color: #11999E;
+  font-family: "Patrick Hand", cursive;
+  color: #11999e;
 }
 div.top_container {
   background-color: rgb(69, 44, 128);
@@ -26,7 +24,6 @@ div.top_container {
   text-align: auto;
   padding-bottom: 50px;
   position: relative;
-  
 }
 div.middle_container {
   padding-top: 30px;
@@ -36,8 +33,7 @@ div.bottom_container {
   padding-top: 30px;
   background-color: rgb(69, 44, 128);
   padding-bottom: 30px;
-
-} 
+}
 .container {
   position: relative;
   width: auto;
@@ -46,7 +42,7 @@ div.bottom_container {
 }
 .about {
   font-size: 2.5rem;
-  color: #66BFBF;
+  color: #66bfbf;
 }
 .top-cloud {
   height: 200px;
@@ -61,7 +57,7 @@ div.bottom_container {
   top: 500px;
 }
 .sideplanet {
-  height:200px;
+  height: 200px;
   position: absolute;
   left: 0%;
   top: 100px;
@@ -70,7 +66,6 @@ div.bottom_container {
   height: 80px;
   margin-right: 20px;
   float: left;
-
 }
 
 .chem {
@@ -78,7 +73,6 @@ div.bottom_container {
   float: right;
   position: absolute;
   left: 300px;
-
 }
 .universe {
   padding: 40px;
@@ -91,23 +85,20 @@ div.bottom_container {
   margin: 50px auto 50px auto;
   line-height: 2;
   text-align: left;
-
 }
 
 .profile {
   padding-bottom: 50px;
 }
 
-
-
 p {
-  font-family: 'Marmelad', sans-serif;
+  font-family: "Marmelad", sans-serif;
 }
 #me {
-   height: 100px;
+  height: 100px;
 }
 a:link {
-  color: #11999E;
+  color: #11999e;
   background-color: transparent;
   text-decoration: none;
 }
@@ -122,15 +113,19 @@ a:hover {
   text-decoration: underline;
 }
 .btn {
-  background-color: rgb(177, 206, 177); /*for compatibility with older browsers*/
-	background-image: linear-gradient(rgb(97, 34, 179),rgb(8, 19, 8));
+  background-color: rgb(
+    177,
+    206,
+    177
+  ); /*for compatibility with older browsers*/
+  background-image: linear-gradient(rgb(97, 34, 179), rgb(8, 19, 8));
   border-radius: 4px;
 }
 .footer-link {
   padding: 10px;
 }
 .last {
-  color:aqua;
+  color: aqua;
 }
 hr {
   border-style: none;
@@ -138,4 +133,9 @@ hr {
   border-top-style: dotted;
   border-width: 5px;
   border-color: rgb(161, 162, 228);
+}
+@media print {
+  tr.vendorListHeading {
+    -webkit-print-color-adjust: exact;
+  }
 }
